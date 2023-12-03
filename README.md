@@ -7,7 +7,7 @@ To create a set of prompts for the given YAML manifests using kubectl-ai plugin,
 
 | NAME                   | PROMPT                                   | DESCRIPTION                                   | EXAMPLE                                      |
 |------------------------|------------------------------------------|-----------------------------------------------|----------------------------------------------|
-| app.yaml               | Apply the deployment manifest for the app | Deploy the main application using a deployment | [yaml/app.yaml](https://github.com/ukrsite/kubectl-ai-demo/blob/4ac3888fc23b64a5db56c451d6ac0eb1e1c0781f/yaml%20/app.yaml)             |
+| app.yaml               | Apply the deployment manifest for the app | Deploy the main application using a deployment | [app.yaml](/yaml/app.yaml)             |
 | app-livenessProbe.yaml | Configure liveness probe for the app      | Set up a liveness probe to monitor app health | [yaml/app-livenessProbe.yaml](https://github.com/ukrsite/kubectl-ai-demo/blob/4ac3888fc23b64a5db56c451d6ac0eb1e1c0781f/yaml%20/app-livenessProbe.yaml)|
 | app-readinessProbe.yaml| Add readiness probe for the app           | Define a readiness probe to check app readiness| [yaml/app-readinessProbe.yaml](https://github.com/ukrsite/kubectl-ai-demo/blob/4ac3888fc23b64a5db56c451d6ac0eb1e1c0781f/yaml%20/app-readinessProbe.yaml)|
 | app-volumeMounts.yaml  | Mount volumes for the app                 | Attach volumes to containers for data storage  | [yaml/app-volumeMounts.yaml](https://github.com/ukrsite/kubectl-ai-demo/blob/4ac3888fc23b64a5db56c451d6ac0eb1e1c0781f/yaml%20/app-volumeMounts.yaml)  |
