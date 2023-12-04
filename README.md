@@ -1,3 +1,10 @@
+# kubectl-ai-demo
+Set of prompts for the YAML manifests using kubectl-ai plugin
+
+To create a set of prompts for the given YAML manifests using kubectl-ai plugin, I'll provide prompts for each file in the list. Please note that these prompts are examples, and you may customize them based on your specific use case.
+
+## Portfolio of Prompts:
+
 | NAME | PROMPT | DESCRIPTION | EXAMPLE |
 |------|--------|-------------|---------|
 | app.yaml | create pod nginx in yaml format with name "app", label "run:app" | create pod nginx | [app.yaml](/yaml/app.yaml) |
